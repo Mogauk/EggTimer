@@ -74,6 +74,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Medium"/>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vpW-fk-sFp"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -97,6 +100,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Hard"/>
+                                                        <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ChR-kc-d1L"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
